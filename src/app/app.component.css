@@ -1,0 +1,20 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #efefef;
+}
+body {
+  background: #efefef;
+  padding: 10px;
+  font-family: 'Varela Round';
+  min-height: 100%;
+  min-width: 100%;
+}
+.jumbotron{
+  background: #efefef;
+  }
+.navbar-default .navbar-brand{
+
+  color: darkorange;
+}

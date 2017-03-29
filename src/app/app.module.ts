@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
+import {LoginComponent} from "./login/login.component";
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     RegisterComponent,
     HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
