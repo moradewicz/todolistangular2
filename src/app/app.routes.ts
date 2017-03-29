@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { AboutComponent } from './register/about.component';
+import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'register', component: RegisterComponent }
 ];
 

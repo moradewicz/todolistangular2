@@ -5,14 +5,14 @@ import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
-import { AboutComponent } from './register/about.component';
+import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
+    RegisterComponent,
     HomeComponent,
   ],
   imports: [
